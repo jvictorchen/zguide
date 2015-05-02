@@ -10,13 +10,19 @@ qzmq follows czmq rather than libzmq and examples here are translations from lib
 
 	q hwclient.q -q / in another terminal
 
+
     q version.q -q  / version reporting 
+
 
     q wuserver.q -q  / weather update server 
 
     q wuclient.q -zip 10001 -q  / weather update client 
 
 
+	q taskvent.q -q / press ENTER when the task workers and sink are ready
+	q taskwork.q -q / can create more than one workers
+	q tasksink.q -q
+	
 
 	q identity.q -q
 	
