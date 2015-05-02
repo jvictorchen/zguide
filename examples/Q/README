@@ -1,11 +1,24 @@
 Examples in Q. Uses qzmq or https://github.com/jaeheum/qzmq.
 qzmq follows czmq rather than libzmq and examples here are translations from libzmq to czmq/qzmq.
 
-q version.q -q
-q identity.q -q
 
+
+Chapter 1:
+/ Hello World server
 q hwserver.q -q / in one terminal
+/ Hello world client 
 q hwclient.q -q / in another terminal
+/ version reporting 
+q version.q -q
+/ weather update server 
+q wuserver.q 
+/ weather update client
+q wuclient -zip 10001 -q 
+
+
+
+
+q identity.q -q
 q mtserver.q -q / is a multithreaded hwserver.q
 
 See LICENSE in examples directory.
